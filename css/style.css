@@ -28,16 +28,20 @@ body {
 a {
   text-decoration: none;
 }
-
+.title-bg {
+  background-image: url(../images/img00.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .cd-title {
   position: relative;
-  height: 160px;
-  line-height: 230px;
   text-align: center;
+  margin-top: 10px;
 }
 .cd-title h1 {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 700;
   font-style: italic;
 }
