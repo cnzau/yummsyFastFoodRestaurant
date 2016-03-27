@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 .title-bg {
-  background-image: url(../images/img00.jpg);
+  background-image: url(../images/img04.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -44,11 +44,32 @@ a {
   font-size: 36px;
   font-weight: 700;
   font-style: italic;
+  color: #ffffff;
+  background: rgba(0,0,0,0.7);
+}
+.navbar {
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+}
+.navbar .nav {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 5%;
+}
+.navbar .nav .item {
+    display: inline-block;
+    color: #ffffff;
+    padding: 2px 5px 5px 5px;
+}
+.navbar .nav .item a {
+    color: #ffffff;
 }
 @media only screen and (min-width: 768px) {
   .cd-title {
     line-height: 70px;
   }
+
 }
 @media only screen and (min-width: 1170px) {
   .cd-title {
@@ -57,27 +78,15 @@ a {
   }
   .cd-title h1 {
     font-size: 3rem;
+    color: #ffffff;
   }
 }
 
 .cd-intro {
-  width: 90%;
+  width: 100%;
   max-width: 768px;
   text-align: center;
-}
-
-.cd-intro {
-  margin: 4em auto;
-}
-@media only screen and (min-width: 768px) {
-  .cd-intro {
-    margin: 5em auto;
-  }
-}
-@media only screen and (min-width: 1170px) {
-  .cd-intro {
-    margin: 6em auto;
-  }
+  background: rgba(0,0,0,0.7);
 }
 
 .cd-headline {
