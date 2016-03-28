@@ -64,6 +64,14 @@ a {
 }
 .navbar .nav .item a {
     color: #ffffff;
+
+}
+.navbar .nav .item:hover {
+    background-color: #757575;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 2px;
 }
 @media only screen and (min-width: 768px) {
   .cd-title {
@@ -84,8 +92,9 @@ a {
 
 .cd-intro {
   width: 100%;
-  max-width: 768px;
   text-align: center;
+}
+.cd-intro h1{
   background: rgba(0,0,0,0.7);
 }
 
