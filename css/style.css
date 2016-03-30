@@ -135,6 +135,45 @@ a {
 .no-js .cd-words-wrapper b.is-visible {
   opacity: 1;
 }
+.contact {
+    background-color: #212121;
+    padding: 15px;
+    color: #ffffff;
+}
+.contact p {
+    clear: both;
+    text-align: center;
+    padding-top: 15px;
+}
+.location {
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.contacts {
+    display: inline-block;
+    float: right;
+    width: 225px;
+}
+.contacts a {
+    color: #ffffff;
+}
+.contacts span {
+    float: right;
+    padding-right: 5px;
+}
+.social-media {
+    clear: both;
+    text-align: center;
+}
+.social-media strong {
+    font-weight: 700;
+}
+.fa {
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 /* --------------------------------
 
